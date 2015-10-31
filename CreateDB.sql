@@ -165,6 +165,7 @@ INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58B
 INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58BXC','15','7500','Box','2008');
 INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58BXA','15','7500','Box','2008');
 
+<<<<<<< HEAD
 /* Populate driver table */
 
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0045619','Eamon','O"'"Looney','JJ 56 53 26 B','0165 6727840','07659 9770175','N');
@@ -223,3 +224,12 @@ INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazar
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0035819','Dexter','Shevell','DD 74 66 28 F','01277 5867761','07893 4519107','N');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0072181','Edgar','Strank','II 24 23 98 B','01239 1225498','07232 9896356','N');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0041353','Sunreet','Balderstone','JJ 91 59 84 A','01933 8361916','07946 3472763','Y');
+=======
+
+INSERT INTO category(category, description, requirement) VALUES ('A','Normal','');
+INSERT INTO category(category, description, requirement) VALUES ('B','Fragile','Packing sign-off required');
+INSERT INTO category(category, description, requirement) VALUES ('C','Hazardous','Qualified drivers only');
+
+
+
+>>>>>>> a5067066b3f3f4b8319729a3cc102d1f1670cd60
