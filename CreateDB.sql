@@ -8,7 +8,9 @@ DROP TABLE category;
 DROP TABLE trip;
 DROP TABLE driver;
 DROP TABLE vehicle;
+DROP SEQUENCE vehicle_type_id_seq;
 DROP TABLE model;
+
 
 CREATE TABLE model
 (
@@ -17,6 +19,12 @@ model VARCHAR2(20),
 make VARCHAR2(10)
 );
 
+CREATE SEQUENCE vehicle_type_id_seq
+  MINVALUE 1
+  START WITH 1
+  INCREMENT BY 1
+  CACHE 50;
+  
 CREATE TABLE vehicle
 (
 registration VARCHAR2(10) PRIMARY KEY,
