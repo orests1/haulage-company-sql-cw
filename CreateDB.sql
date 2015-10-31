@@ -230,7 +230,7 @@ INSERT INTO category(category, description, requirement) VALUES ('A','Normal',''
 INSERT INTO category(category, description, requirement) VALUES ('B','Fragile','Packing sign-off required');
 INSERT INTO category(category, description, requirement) VALUES ('C','Hazardous','Qualified drivers only');
 
-<<<<<<< HEAD
+
 /* populated trip table */
 INSERT INTO trip (trip_id,departure_date,return_date,registration,employee_no) VALUES('72941',TO_DATE('02/01/12','dd/mm/yy'),TO_DATE('04/01/12','dd/mm/yy'),'BD08AOG','0049547');
 INSERT INTO trip (trip_id,departure_date,return_date,registration,employee_no) VALUES('72942',TO_DATE('02/01/12','dd/mm/yy'),TO_DATE('06/01/12','dd/mm/yy'),'BD60BVF','0115692');
@@ -1406,7 +1406,7 @@ INSERT INTO trip (trip_id,departure_date,return_date,registration,employee_no) V
 INSERT INTO trip (trip_id,departure_date,return_date,registration,employee_no) VALUES('74113',TO_DATE('30/06/12','dd/mm/yy'),TO_DATE('02/07/12','dd/mm/yy'),'PY60 XPM','0040079');
 INSERT INTO trip (trip_id,departure_date,return_date,registration,employee_no) VALUES('74114',TO_DATE('02/07/12','dd/mm/yy'),TO_DATE('03/07/12','dd/mm/yy'),'MR58UMH','0064734');
 
-=======
+
 
 /* populated customer table */
 set DEFINE off
@@ -1712,4 +1712,4 @@ INSERT INTO customer(reference, company_name, address, town, post_code, telephon
 INSERT INTO customer(reference, company_name, address, town, post_code, telephone, contact_fname, contact_sname, contact_email) VALUES ('299','Staysail Fabrication','25 Curiosa Street','Glenfinnan','PH90 5GF','01579 6328130','Malik','Tetford','m.tetford@staysail.co.uk');
 INSERT INTO customer(reference, company_name, address, town, post_code, telephone, contact_fname, contact_sname, contact_email) VALUES ('300','Diabrotic Fabrication','51 Conglutinate Passage','Gateshead','NE20 3BD','01827 9525678','Norris','Lochrie','n.lochrie@diabrotic.co.uk');
 set DEFINE on
->>>>>>> 80accbda8b9aa39f0d7754da355d3bf2f43b54c2
+
