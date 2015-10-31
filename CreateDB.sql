@@ -1,3 +1,4 @@
+--Author: Lampros Valais
 DROP TABLE manifest;
 DROP TABLE customer;
 DROP TABLE category;
@@ -79,3 +80,4 @@ FOREIGN KEY (category) REFERENCES category(category),
 FOREIGN KEY (pickup_customer_ref) REFERENCES customer(reference),
 FOREIGN KEY (delivery_customer_ref) REFERENCES customer(reference)
 );
+
