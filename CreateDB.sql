@@ -535,3 +535,5 @@ INSERT INTO customer(reference, company_name, address, town, post_code, telephon
 INSERT INTO customer(reference, company_name, address, town, post_code, telephone, contact_fname, contact_sname, contact_email) VALUES ('299','Staysail Fabrication','25 Curiosa Street','Glenfinnan','PH90 5GF','01579 6328130','Malik','Tetford','m.tetford@staysail.co.uk');
 INSERT INTO customer(reference, company_name, address, town, post_code, telephone, contact_fname, contact_sname, contact_email) VALUES ('300','Diabrotic Fabrication','51 Conglutinate Passage','Gateshead','NE20 3BD','01827 9525678','Norris','Lochrie','n.lochrie@diabrotic.co.uk');
 set DEFINE on
+
+INSERT INTO manifest(barcode, trip_id, pickup_customer_ref, delivery_customer_ref, category, weight) VALUES ('188127796','72941','77','188','A','4771');
