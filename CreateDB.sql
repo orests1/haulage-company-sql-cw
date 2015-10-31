@@ -1,3 +1,4 @@
+--Author Orestis Christou
 DROP TABLE manifest;
 DROP TABLE customer;
 DROP TABLE category;
