@@ -1713,3 +1713,7 @@ INSERT INTO customer(reference, company_name, address, town, post_code, telephon
 INSERT INTO customer(reference, company_name, address, town, post_code, telephone, contact_fname, contact_sname, contact_email) VALUES ('300','Diabrotic Fabrication','51 Conglutinate Passage','Gateshead','NE20 3BD','01827 9525678','Norris','Lochrie','n.lochrie@diabrotic.co.uk');
 set DEFINE on
 
+<<<<<<< HEAD
+INSERT INTO manifest(barcode, trip_id, pickup_customer_ref, delivery_customer_ref, category, weight) VALUES ('188127796','72941','77','188','A','4771');
+=======
+>>>>>>> 57b1b302a1097f54b74073c1fe07d91451be3ea7
