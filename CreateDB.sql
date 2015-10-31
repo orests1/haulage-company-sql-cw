@@ -168,7 +168,7 @@ INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58B
 
 /* Populate driver table */
 
-INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0045619','Eamon','O"'"Looney','JJ 56 53 26 B','0165 6727840','07659 9770175','N');
+INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0045619','Eamon','O''Looney','JJ 56 53 26 B','0165 6727840','07659 9770175','N');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0117094','Albert','Phillimore','SS 80 84 13 A','01317 2769995','07140 6644976','N');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0049743','Crispin','Cleobury','BB 83 85 43 F','0197 2482608','07267 2373966','Y');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0071609','Seth','Nappin','NN 46 94 29 D','01578 9961473','07821 8889692','N');
@@ -188,8 +188,8 @@ INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazar
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0103275','Graeme','McCrainor','QQ 20 32 26 C','01368 8510191','07592 6815579','Y');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0081817','Finlay','Berzin','GG 51 18 93 G','01259 5036960','07890 1312428','N');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0040079','Frederick','Sambidge','XX 39 50 75 G','01720 5376232','07228 3349690','Y');
-INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0019383','Langley','O"'"Canavan','YY 33 92 76 F','01353 1643083','07398 4851545','Y');
-INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0032481','Ernst','A"'"field','WW 96 29 21 E','01491 7070174','07178 6641268','N');
+INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0019383','Langley','O''Canavan','YY 33 92 76 F','01353 1643083','07398 4851545','Y');
+INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0032481','Ernst','A''field','WW 96 29 21 E','01491 7070174','07178 6641268','N');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0054864','Solomon','Gorhardt','FF 85 32 69 D','01237 1542386','07818 2003871','Y');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0088611','Angelo','Duchart','II 24 61 48 G','01979 9209138','07605 8528591','N');
 INSERT INTO driver(employee_no,first_name,last_name,ni_no,telephone,mobile,hazardous_goods) VALUES ('0028539','Igor','Woodruffe','BB 80 31 73 F','0198 2086959','07282 5816166','Y');
@@ -230,5 +230,8 @@ INSERT INTO category(category, description, requirement) VALUES ('A','Normal',''
 INSERT INTO category(category, description, requirement) VALUES ('B','Fragile','Packing sign-off required');
 INSERT INTO category(category, description, requirement) VALUES ('C','Hazardous','Qualified drivers only');
 
+<<<<<<< HEAD
 /* populated customer table */
 INSERT INTO customer(reference, company_name, address, town, post_code, telephone, contact_fname, contact_sname, contact_email) VALUES ('1','Calash Ltd.','88 Rinkomania Lane','Cardigan','SA55 8BA','01167 1595763','Cameron','Dunnico','c.dunnico@calash.co.uk');
+=======
+>>>>>>> 3549b34cda8ef488c560fd51dee722b61e51a23c
