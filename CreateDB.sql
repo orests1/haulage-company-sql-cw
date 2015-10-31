@@ -16,7 +16,7 @@ CREATE TABLE model
 (
 vehicle_type_id INTEGER PRIMARY KEY,
 model VARCHAR2(20),
-make VARCHAR2(10)
+make VARCHAR2(20)
 );
 
 CREATE SEQUENCE vehicle_type_id_seq
@@ -91,4 +91,21 @@ FOREIGN KEY (category) REFERENCES category(category),
 FOREIGN KEY (pickup_customer_ref) REFERENCES customer(reference),
 FOREIGN KEY (delivery_customer_ref) REFERENCES customer(reference)
 );
+
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'ALBION','RIEVER');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'ATKINSON','ATKINSON');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'DAF','FT85.400');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'DAF','FTGCF85.430');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'DAF','FTGCF85.460E');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'DAF','FTGCF85.460V');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'DAF','FTGXF105.510');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'Scania','P310 6x2');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'Scania','R620 6x2*4');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'Scania','P230 4x2');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'Scania','R270 6x2');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'Scania','P94 4x2');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'MAN','TGM');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'MAN','M 2000');
+INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'MAN','TGL');
+
 
