@@ -164,3 +164,11 @@ INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58B
 INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58BXM','13','18000','Box','2008');
 INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58BXC','15','7500','Box','2008');
 INSERT INTO vehicle(registration,vehicle_type_id, gvw, body,year) VALUES ('BR58BXA','15','7500','Box','2008');
+
+
+INSERT INTO category(category, description, requirement) VALUES ('A','Normal','');
+INSERT INTO category(category, description, requirement) VALUES ('B','Fragile','Packing sign-off required');
+INSERT INTO category(category, description, requirement) VALUES ('C','Hazardous','Qualified drivers only');
+
+
+
