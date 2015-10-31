@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 
---Author: Lampros Valais
 =======
+>>>>>>> f6121f8f18ed3bd73cb9b282b58bb250476a65c3
+--Author: Lampros Valais
 --Author Orestis Christou
+<<<<<<< HEAD
 
+=======
+>>>>>>> f6121f8f18ed3bd73cb9b282b58bb250476a65c3
 DROP TABLE manifest;
 DROP TABLE customer;
 DROP TABLE category;
