@@ -17233,5 +17233,8 @@ INSERT INTO manifest(barcode, trip_id, pickup_customer_ref, delivery_customer_re
 INSERT INTO manifest(barcode, trip_id, pickup_customer_ref, delivery_customer_ref, category, weight) VALUES ('626818917','74114','223','33','A','4461');
 INSERT INTO manifest(barcode, trip_id, pickup_customer_ref, delivery_customer_ref, category, weight) VALUES ('574084773','74114','223','33','A','2231');
 INSERT INTO manifest(barcode, trip_id, pickup_customer_ref, delivery_customer_ref, category, weight) VALUES ('546385273','74114','223','33','A','1054');
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6a1608268376bd4ea82dcab2bf00c385242571e7
 
