@@ -1,5 +1,5 @@
-accept my_departure char prompt 'Enter value for departure date: '
-accept my_return char prompt 'Enter value for return date: '
+accept my_departure char prompt 'Enter value for departure date  (dd/mm/yy): '
+accept my_return char prompt 'Enter value for return date  (dd/mm/yy): '
 SELECT v.vehicle_type_id,v.registration
 FROM vehicle v
 MINUS
