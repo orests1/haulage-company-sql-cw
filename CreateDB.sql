@@ -1,7 +1,7 @@
 
 --Author: Lampros Valais
 --Author Orestis Christou
-
+/* Dropping tables to recreate them*/
 DROP TABLE manifest;
 DROP TABLE customer;
 DROP TABLE category;
@@ -91,6 +91,8 @@ FOREIGN KEY (category) REFERENCES category(category),
 FOREIGN KEY (pickup_customer_ref) REFERENCES customer(reference),
 FOREIGN KEY (delivery_customer_ref) REFERENCES customer(reference)
 ); 
+
+
 /* Start to populate the table model with data from excel*/ 
 INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'ALBION','RIEVER');
 INSERT INTO model(vehicle_type_id, model, make) VALUES (vehicle_type_id_seq.NEXTVAL,'ATKINSON','ATKINSON');
