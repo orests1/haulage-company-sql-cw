@@ -1,5 +1,5 @@
-accept my_departure char prompt 'Enter value for starting month : '
-accept my_return char prompt 'Enter value for last month : '
+accept my_departure char prompt 'Enter starting month number : '
+accept my_return char prompt 'Enter last month number : '
 SELECT *
 FROM (
     SELECT cnt1.company_name,COUNT(cnt1.company_name) AS Pickups
